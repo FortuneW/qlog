@@ -1,4 +1,4 @@
-package xlog
+package qlog
 
 import "github.com/FortuneW/qlog/internal"
 

@@ -1,4 +1,4 @@
-package xlog
+package qlog
 
 // ALogger 定义了基础管理访问日志接口，仅包含时间，不包含日志级别的输出
 // 提供最基本的Print和Printf方法
