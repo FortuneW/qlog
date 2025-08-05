@@ -34,7 +34,7 @@ type (
 // AddWriter 添加一个新的日志写入器
 // 如果已经存在写入器，新的写入器将被添加到写入器链中
 // 例如，要同时将日志写入文件和控制台，如果已经存在文件写入器：
-// xlog.AddWriter(xlog.NewWriter(os.Stdout))
+// qlog.AddWriter(qlog.NewWriter(os.Stdout))
 func AddWriter(w Writer) {
 	ow := Reset()
 	if ow == nil {

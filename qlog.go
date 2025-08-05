@@ -100,7 +100,7 @@ func SetLogLevelStr(level string) {
 	}
 }
 
-var mlog = GetRLog("xlog")
+var mlog = GetRLog("qlog")
 
 // SetOpenTime 设置日志级别的临时提升时间
 func SetOpenTime(duration time.Duration, callback func(level string)) error {

@@ -61,7 +61,7 @@ func (h *HealthChecker) tryRecover() {
 	retryCount := 0
 
 	for {
-		recoverMsg := GetOutputStringFormatted(LevelError, fmt.Sprintf("[xlog] system recovered from(%s:%q), outage duration: %v",
+		recoverMsg := GetOutputStringFormatted(LevelError, fmt.Sprintf("[qlog] system recovered from(%s:%q), outage duration: %v",
 			h.errorTime.Format(timeFormat),
 			h.lastError,
 			time.Since(h.errorTime)),
