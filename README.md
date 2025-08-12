@@ -1,3 +1,5 @@
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/FortuneW/gollmperf)
+
 # qlog
 
 一个轻量级、高性能的Go日志库，支持多种日志级别、日志轮转、控制台和文件输出等功能。
